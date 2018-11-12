@@ -1,6 +1,6 @@
 # grafana-tsdb-datasource-backend
 
-为百度的TSDB数据源插件提供的后台代理程序。主要完成访问认证和请求代理转发的功能。
+为百度的TSDB数据源插件[grafana-tsdb-datasource](https://github.com/baidu/grafana-tsdb-datasource)提供的后台代理程序。主要完成访问认证和请求代理转发的功能。
 由于Grafana不支持百度云使用公钥和私钥（AK&SK）计算签名的鉴权方式，为保证用户AK和SK的安全，因此需要通过一个代理服务进行签名计算和请求转发。
 # 安装
 
