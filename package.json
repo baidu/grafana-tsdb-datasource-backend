@@ -1,0 +1,36 @@
+{
+  "name": "grafana-tsdb-datasource-backend",
+  "version": "0.1.1",
+  "description": "Baidu tsdb datasource plugin proxy for grafana",
+  "main": "index.js",
+  "scripts": {
+    "start": "node tsdbProxy.js",
+    "dev": "./node_modules/.bin/nodemon tsdbProxy.js",
+    "prd": "pm2 start tsdbProxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "authors": [
+    "haoqian <haoqiann@163.com>"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@baiducloud/sdk": "1.0.0-rc.0",
+    "config": "^1.30.0",
+    "debug": "^2.6.3",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.1",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.1.1",
+    "koa2-cors": "^2.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
