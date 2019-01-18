@@ -10,9 +10,7 @@
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
  *
- * @file the config file
- * Don't forget delete the AK&SK information, before you commit the config file to github or other common envirment.
- * @author hq(haoqian@baidu.com)
+ * @author hq
  */
 module.exports = {
     app: {

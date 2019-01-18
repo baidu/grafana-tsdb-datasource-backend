@@ -11,7 +11,7 @@
  * specific language governing permissions and limitations under the License.
  *
  * @file route file
- * @author hq(haoqian@baidu.com)
+ * @author hq
  */
 const router = require('koa-router')();
 const TsdbDataClient = require('@baiducloud/sdk').TsdbDataClient;

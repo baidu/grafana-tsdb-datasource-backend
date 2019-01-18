@@ -13,9 +13,7 @@
     "type": "git",
     "url": ""
   },
-  "authors": [
-    "haoqian <haoqiann@163.com>"
-  ],
+  "author": "hq",
   "license": "Apache-2.0",
   "dependencies": {
     "@baiducloud/sdk": "1.0.0-rc.0",
